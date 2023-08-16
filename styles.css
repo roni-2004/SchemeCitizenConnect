@@ -26,6 +26,7 @@ body{
 #features{
     padding: 3% 7% 2% 7%;
     text-align: center;
+    background-color: #FDF7E8;
 }
 
 .feature-box img{
@@ -41,11 +42,10 @@ body{
 
 #motive{
     padding: 2% 7% 1% 7%;
-    background-color: #E8F0D1;
+
 }
 
 .card {
-    background-color: #E8F0D1;
     border: 0px;
 }
 
@@ -74,6 +74,7 @@ body{
     padding: 0% 7% 0% 7%;
 }
 
-#cards{
-    background-color: #E8F0D1;
+
+#midhero{
+    background-color: #FDF7E8;
 }
