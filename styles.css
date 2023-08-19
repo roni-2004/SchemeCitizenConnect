@@ -10,12 +10,10 @@ body{
 }
 
 .navbar{
-    background-color:#4F5F1F;
-    color: white;
+    background-color:white;
 }
 
 #highlights{
-    /* padding: 0 7% 0 7%; */
     background-color: #E8F0D1;
 }
 
@@ -30,7 +28,7 @@ body{
 }
 
 .feature-box img{
-    width: 15%;
+    width: 30%;
 
 }
 
@@ -42,28 +40,6 @@ body{
 
 #motive{
     padding: 2% 7% 1% 7%;
-
-}
-
-.card {
-    border: 0px;
-}
-
-.cardimg{
-    width: 40%;
-
-}
-
-.cardtitle{
-    color: #4B5A1D;
-    font-size: 2rem;
-    text-align: left;
-}
-
-.cardpara{
-    font-size: 1.5rem;
-    text-align: left;
-    font-family: 'Lato';
 }
 
 .herop{
@@ -77,4 +53,16 @@ body{
 
 #midhero{
     background-color: #FDF7E8;
+}
+
+.card{
+    border: 0;
+}
+
+.cardtitle{
+    font-size: 2.5rem;
+}
+
+.cardpara{
+    text-align: left;
 }

@@ -1,10 +1,25 @@
-const http = require("node:http");
+var express = require("express");
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Welcome");
+var app = express();
+
+app.listen(8000);
+
+app.use(express.json());
+
+app.use("/images", express.static("images"));
+
+app.get("/main", (req, res) => {
+  res.sendFile("./index.html", { root: __dirname });
 });
 
-server.listen(2000, () => {
-  console.log("Server running on port 2000..");
+app.get("/login", (req, res) => {
+  res.sendFile("./login.html", { root: __dirname });
+});
+
+app.get("/register", (req, res) => {
+  res.sendFile("./register.html", { root: __dirname });
+});
+
+app.post("/contact", (req, res) => {
+  console.log(req.body);
 });
