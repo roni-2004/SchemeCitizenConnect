@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+body{
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#navbar{
+    padding: 0 7% 0 7%;
+    background-color: white;
+}
+
+.navbar{
+    background-color:white;
+    color: white;
+}
+
+#team{
+    padding: 0% 15% 0 15%;
+    font-family: 'Poppins';
+}
+
+.teamheading{
+    padding: 0% 0% 3% 0%;
+    font-family: 'Poppins';
+}
+
+
+.teamrow2{
+    padding: 0 7% 0 7%;
+}
+

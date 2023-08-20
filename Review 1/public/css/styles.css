@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#navbar{
+    padding: 0 7% 0 7%;
+}
+
+.navbar{
+    background-color:white;
+}
+
+#highlights{
+    background-color: #E8F0D1;
+}
+
+.carouselimg{
+    width: 100%;
+}
+
+#features{
+    padding: 3% 7% 2% 7%;
+    text-align: center;
+    background-color: #FDF7E8;
+}
+
+.feature-box img{
+    width: 30%;
+
+}
+
+.feature-box p{
+    padding: 0 20% 0 20%;
+    font-family: 'Lato';
+    color: #808080;
+}
+
+#motive{
+    padding: 2% 7% 1% 7%;
+}
+
+.herop{
+    font-family: 'Lato';
+}
+
+#footer{
+    padding: 0% 7% 0% 7%;
+}
+
+
+#midhero{
+    background-color: #FDF7E8;
+}
+
+.card{
+    border: 0;
+}
+
+.cardtitle{
+    font-size: 2.5rem;
+}
+
+.cardpara{
+    text-align: left;
+}
